@@ -17,14 +17,22 @@
     "url": "https://github.com/pszklanko/meme-creator/issues"
   },
   "homepage": "https://github.com/pszklanko/meme-creator#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "3",
+    "jquery": "^3.3.1"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2105": "^0.0.0",
     "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "img-loader": "^2.0.1",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
     "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.11"
   }
