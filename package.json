@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/pszklanko/meme-creator/issues"
   },
-  "homepage": "https://github.com/pszklanko/meme-creator#readme"
+  "homepage": "https://github.com/pszklanko/meme-creator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
 }
